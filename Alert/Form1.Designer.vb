@@ -47,7 +47,7 @@ Partial Class Form1
         '
         Me.Panel1.Location = New System.Drawing.Point(12, 12)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(260, 227)
+        Me.Panel1.Size = New System.Drawing.Size(260, 237)
         Me.Panel1.TabIndex = 2
         '
         'Form1
