@@ -72,17 +72,17 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AlertRegister.vb">
+    <Compile Include="AlertRegisterForm.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AlertRegister.Designer.vb">
-      <DependentUpon>AlertRegister.vb</DependentUpon>
+    <Compile Include="AlertRegisterForm.Designer.vb">
+      <DependentUpon>AlertRegisterForm.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="a.Designer.vb">
-      <DependentUpon>a.vb</DependentUpon>
+    <Compile Include="AlertListForm.Designer.vb">
+      <DependentUpon>AlertListForm.vb</DependentUpon>
     </Compile>
-    <Compile Include="a.vb">
+    <Compile Include="AlertListForm.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Module1.vb" />
@@ -103,11 +103,11 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="a.resx">
-      <DependentUpon>a.vb</DependentUpon>
+    <EmbeddedResource Include="AlertListForm.resx">
+      <DependentUpon>AlertListForm.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AlertRegister.resx">
-      <DependentUpon>AlertRegister.vb</DependentUpon>
+    <EmbeddedResource Include="AlertRegisterForm.resx">
+      <DependentUpon>AlertRegisterForm.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
